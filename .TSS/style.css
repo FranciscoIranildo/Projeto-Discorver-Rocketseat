@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+}
+
+.conteiner {
+  width: 376px;
+  height: 664px;
+  margin: auto;
+}
+#logo img {
+  width: 200px;
+  height: 103px;
+  margin: 32px 88px 0px;
+}
+
+#h1 {
+  width: 312px;
+  height: 40px;
+  font-size: 1.13rem;
+  text-align: center;
+  margin: 32px;
+}
+#h2 {
+  width: 312px;
+  height: 34px;
+  text-align: center;
+  font-size: 15px;
+  margin: 0px 32px 32px;
+}
+.login ::placeholder {
+  width: 56px;
+  height: 48px;
+  font-size: 20px;
+  margin: 0px auto;
+}
+.login input {
+  width: 344px;
+  height: 48px;
+  border: 1px solid #8c8c8c;
+  font-size: 20px;
+  margin: 0px auto 8px;
+}
+
+.password ::placeholder {
+  width: 64px;
+  height: 48px;
+  font-size: 20px;
+  margin: 0px auto;
+}
+.password input {
+  width: 344px;
+  height: 48px;
+  border: 1px solid #8c8c8c;
+  font-size: 20px;
+  margin: 0px auto;
+}
+
+/* text-decoration nao esta funcionando*/
+#esqueceu {
+  text-align: right;
+  font-size: 18px;
+  color: #000;
+  margin: 0px 16px;
+  text-decoration: none;
+}
+.button {
+  background: #d9d9d9;
+  width: 344px;
+  height: 48px;
+  font-size: 20px;
+  text-align: center;
+  margin: 48px 16px 20px;
+  border: none;
+}
+footer {
+  color: #000;
+  margin: 20px 32px;
+  text-align: center;
+  font-size: 18px;
+  width: 312px;
+  height: 24px;
+}
